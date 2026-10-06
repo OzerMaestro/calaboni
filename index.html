@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calaboni – Pizzeria & Street Meze i Hørsholm</title>
+  <meta name="description" content="Calaboni Pizzeria & Street Meze i Hørsholm. Frisklavede pizzaer, durum, burgere, pasta og meze. Bestil takeaway eller levering online.">
+  <link rel="icon" href="https://www.calaboni.dk/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Promo-bar -->
+  <div class="promo-bar">
+    <span>🎉 Åbningsrabat: brug koden <strong>CALA10</strong> og få 10% rabat på din online ordre</span>
+  </div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="logo" aria-label="Calaboni forside">
+        <span class="logo-mark">C</span>
+        <span class="logo-text">Calaboni<small>Pizzeria & Street Meze</small></span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#om-os">Om os</a>
+        <a href="#menu">Menu</a>
+        <a href="#galleri">Galleri</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="https://www.calaboni.dk/order.php?token=www.calaboni.dk" class="btn btn-primary btn-sm">Bestil nu</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Åbn menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="top">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <span class="status-pill" id="statusPill"><span class="dot"></span><span id="statusText">Åbent i dag 11:00–21:00</span></span>
+      <h1>Pizza, durum <br>& meze <em>med sjæl</em></h1>
+      <p class="lead">Smagsoplevelser der samler det bedste fra det italienske køkken og street food-favoritter – midt i Hørsholm.</p>
+      <div class="hero-actions">
+        <a href="https://www.calaboni.dk/order.php?token=www.calaboni.dk" class="btn btn-primary btn-lg">Bestil takeaway</a>
+        <a href="#menu" class="btn btn-ghost btn-lg">Se menuen</a>
+      </div>
+      <ul class="hero-badges">
+        <li><strong>🛵</strong> Levering</li>
+        <li><strong>🥡</strong> Takeaway</li>
+        <li><strong>☀️</strong> Frokostpizza</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Nyheder -->
+  <section class="news container" id="nyheder">
+    <article class="news-card reveal">
+      <div class="news-icon">🛵</div>
+      <div>
+        <span class="tag">Nyhed</span>
+        <h3>Nu med levering</h3>
+        <p>Du kan nu bestille til levering – direkte til døren i Hørsholm og omegn.</p>
+      </div>
+    </article>
+    <article class="news-card reveal">
+      <div class="news-icon">☀️</div>
+      <div>
+        <span class="tag">Frokost</span>
+        <h3>Pizza til frokost</h3>
+        <p>Vi har åbent fra kl. 11 – perfekt til en hurtig og lækker frokost.</p>
+      </div>
+    </article>
+    <article class="news-card reveal">
+      <div class="news-icon">🏷️</div>
+      <div>
+        <span class="tag">Rabat</span>
+        <h3>10% på din ordre</h3>
+        <p>Brug koden <strong>CALA10</strong> når du bestiller online.</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- Om os -->
+  <section class="about" id="om-os">
+    <div class="container about-grid">
+      <div class="about-images reveal">
+        <img class="img-main" src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=900&q=80&auto=format&fit=crop" alt="Frisklavet pizza med spinat og ost" loading="lazy">
+        <img class="img-float" src="https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=600&q=80&auto=format&fit=crop" alt="Shawarma i fladbrød" loading="lazy">
+        <div class="about-sticker">Byens<br><strong>bedste</strong><br>pizza</div>
+      </div>
+      <div class="about-text reveal">
+        <span class="eyebrow">Om os</span>
+        <h2>Velkommen til Calaboni</h2>
+        <p>Calaboni Street Meze & Pizza er et moderne spisested, hvor vi serverer frisklavede pizzaer og et udvalg af meze samt mellemøstligt inspirerede retter. Vores koncept kombinerer klassiske favoritter med autentiske smage og friske råvarer.</p>
+        <p>Vi er ikke et traditionelt italiensk, tyrkisk eller arabisk køkken. I stedet har vi skabt vores egen menu med fokus på god smag, kvalitet og et varieret udvalg – så alle kan finde noget, de har lyst til.</p>
+        <div class="stats">
+          <div><strong><span data-count="100">0</span>+</strong><span>retter på menuen</span></div>
+          <div><strong data-count="7">0</strong><span>dage om ugen</span></div>
+          <div><strong>11–21</strong><span>åbent hver dag</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Favoritter -->
+  <section class="favorites container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Husets favoritter</span>
+      <h2>Det vores gæster elsker</h2>
+    </div>
+    <div class="fav-grid">
+      <a href="#menu" data-jump="Pizzaer" class="fav reveal">
+        <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=700&q=80&auto=format&fit=crop" alt="Pizza" loading="lazy">
+        <div class="fav-body"><h3>Pizzaer</h3><span>fra 75 kr.</span></div>
+      </a>
+      <a href="#menu" data-jump="Durum" class="fav reveal">
+        <img src="https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=700&q=80&auto=format&fit=crop" alt="Durum" loading="lazy">
+        <div class="fav-body"><h3>Durum</h3><span>fra 75 kr.</span></div>
+      </a>
+      <a href="#menu" data-jump="Okseburger" class="fav reveal">
+        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=700&q=80&auto=format&fit=crop" alt="Burger" loading="lazy">
+        <div class="fav-body"><h3>Burgere</h3><span>fra 68 kr.</span></div>
+      </a>
+      <a href="#menu" data-jump="Pasta" class="fav reveal">
+        <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=700&q=80&auto=format&fit=crop" alt="Pasta" loading="lazy">
+        <div class="fav-body"><h3>Pasta</h3><span>fra 90 kr.</span></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Menu -->
+  <section class="menu-section" id="menu">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Menukort</span>
+        <h2>Hele menuen</h2>
+        <p>Find din favorit – og bestil med det samme.</p>
+      </div>
+
+      <div class="menu-tools">
+        <label class="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input type="search" id="menuSearch" placeholder="Søg efter ret eller ingrediens…" autocomplete="off">
+        </label>
+        <label class="toggle">
+          <input type="checkbox" id="vegOnly">
+          <span class="toggle-track"><span class="toggle-thumb"></span></span>
+          Kun vegetar
+        </label>
+      </div>
+
+      <div class="cat-tabs-wrap" id="catTabsWrap">
+        <div class="cat-tabs" id="catTabs"></div>
+      </div>
+
+      <div id="menuList" class="menu-list"></div>
+      <p class="empty" id="menuEmpty" hidden>Ingen retter matcher din søgning 🍕</p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container cta-inner reveal">
+      <div>
+        <h2>Sulten? Vi er klar.</h2>
+        <p>Bestil online til afhentning eller levering. Husk koden <strong>CALA10</strong>.</p>
+      </div>
+      <div class="cta-actions">
+        <a href="https://www.calaboni.dk/order.php?token=www.calaboni.dk" class="btn btn-light btn-lg">Bestil online</a>
+        <a href="tel:+4553502553" class="btn btn-outline-light btn-lg">Ring 53 50 25 53</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galleri -->
+  <section class="gallery container" id="galleri">
+    <div class="section-head reveal">
+      <span class="eyebrow">Galleri</span>
+      <h2>Lavet med kærlighed</h2>
+    </div>
+    <div class="gallery-grid">
+      <img class="g1 reveal" src="https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?w=900&q=80&auto=format&fit=crop" alt="Pizza med smeltet ost" loading="lazy">
+      <img class="reveal" src="https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?w=600&q=80&auto=format&fit=crop" alt="Nachos" loading="lazy">
+      <img class="reveal" src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=600&q=80&auto=format&fit=crop" alt="Grillspyd" loading="lazy">
+      <img class="reveal" src="https://images.unsplash.com/photo-1600891964092-4316c288032e?w=600&q=80&auto=format&fit=crop" alt="Bøf med pommes frites" loading="lazy">
+      <img class="g5 reveal" src="https://images.unsplash.com/photo-1590947132387-155cc02f3212?w=900&q=80&auto=format&fit=crop" alt="Pizza i skiver" loading="lazy">
+      <img class="reveal" src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=600&q=80&auto=format&fit=crop" alt="Burger" loading="lazy">
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <section class="contact" id="kontakt">
+    <div class="container contact-grid">
+      <div class="contact-card reveal">
+        <span class="eyebrow">Kontakt</span>
+        <h2>Find os i Hørsholm</h2>
+        <ul class="contact-list">
+          <li>
+            <span class="ci">📍</span>
+            <div><strong>Adresse</strong><a href="https://maps.google.com/?q=Usserød+Kongevej+34,+2870+Hørsholm" target="_blank" rel="noopener">Usserød Kongevej 34, st.<br>2870 Hørsholm</a></div>
+          </li>
+          <li>
+            <span class="ci">📞</span>
+            <div><strong>Telefon</strong><a href="tel:+4553502553">+45 53 50 25 53</a></div>
+          </li>
+          <li>
+            <span class="ci">✉️</span>
+            <div><strong>E-mail</strong><a href="mailto:ziya72@hotmail.dk">ziya72@hotmail.dk</a></div>
+          </li>
+        </ul>
+        <p class="cvr">CVR: 46442385</p>
+      </div>
+
+      <div class="hours-card reveal">
+        <h3>Åbningstider</h3>
+        <ul class="hours" id="hours"></ul>
+        <p class="hours-note">Online bestilling fra kl. 11:00</p>
+      </div>
+
+      <div class="map reveal">
+        <iframe title="Kort over Calaboni" src="https://maps.google.com/maps?q=Usser%C3%B8d%20Kongevej%2034%2C%202870%20H%C3%B8rsholm&z=15&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#top" class="logo logo-light">
+        <span class="logo-mark">C</span>
+        <span class="logo-text">Calaboni<small>Pizzeria & Street Meze</small></span>
+      </a>
+      <nav>
+        <a href="#om-os">Om os</a>
+        <a href="#menu">Menu</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="https://www.calaboni.dk/order.php?token=www.calaboni.dk">Bestil</a>
+      </nav>
+      <p>© <span id="year"></span> Calaboni · Usserød Kongevej 34, 2870 Hørsholm</p>
+    </div>
+  </footer>
+
+  <!-- Mobil bestil-knap -->
+  <a href="https://www.calaboni.dk/order.php?token=www.calaboni.dk" class="mobile-order">🍕 Bestil nu</a>
+
+  <script src="menu.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
